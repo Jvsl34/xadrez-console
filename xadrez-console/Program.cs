@@ -33,7 +33,7 @@ namespace xadrez_console
                         Console.WriteLine();
                         Console.Write("Destino: ");
                         Posicao destino = Tela.LerPosicaoXadrez().ToPosicao();
-                        partida.validarPosicaoDeDestino(origem, destino);
+                        partida.ValidarPosicaoDeDestino(origem, destino);
 
                         partida.RealizaJogada(origem, destino);
                     }
