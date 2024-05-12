@@ -24,7 +24,7 @@ namespace xadrez
             Peca p = Tab.RetirarPeca(origem);
             Peca pecaCapturada = Tab.RetirarPeca(destino);
 
-            p.IncrementarQteMovimentos();
+            // p.IncrementarQteMovimentos();
             Tab.ColocarPeca(p, destino);
             
         }
