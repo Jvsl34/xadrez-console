@@ -7,11 +7,11 @@
         public int QteMovimentos { get; protected set; }
         public Tabuleiro Tab { get; protected set; }
 
-        public Peca(Posicao posicao, Cor cor, Tabuleiro tab)
+        public Peca(Tabuleiro tab, Cor cor)
         {
-            this.Posicao = posicao;
-            this.Cor = cor;
+            this.Posicao = null;
             this.Tab = tab;
+            this.Cor = cor;
             this.QteMovimentos = 0;
         }
     }
